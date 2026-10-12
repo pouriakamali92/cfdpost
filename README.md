@@ -23,6 +23,14 @@ Aus den Exporten mehrerer Geometrievarianten (V1–V4) wird die Temperatur entla
 - Ausgewertet wird `total-temperature` aus dem Fluent-Export.
 - Die Kanalwand-Diagramme (`scripts/kanaele/`) verwenden dagegen die statische Temperatur aus Fluent-XY-Plots.
 
+## Temperatur entlang der Kanalwände
+
+Statische Temperatur entlang der Kanalwände 1–3 für die Versionen V1–V4, erzeugt mit den Skripten in `scripts/kanaele/`:
+
+| Kanal 1 | Kanal 2 | Kanal 3 |
+|---|---|---|
+| ![Kanal 1](images/kanal1_wandtemperatur.png) | ![Kanal 2](images/kanal2_wandtemperatur.png) | ![Kanal 3](images/kanal3_wandtemperatur.png) |
+
 ## Struktur
 
     config.yaml      alle Parameter (Dateien, Spalten, Bins, Fenster, Diagrammtitel)
