@@ -1,0 +1,16 @@
+# Simulationsdaten und Rohexporte (nicht veröffentlicht)
+data/*
+!data/.gitkeep
+*.csv
+*.h5
+*.cas
+*.dat
+*.txt
+!requirements.txt
+outputs/
+tests/golden/
+__pycache__/
+*.pyc
+*.zip
+.DS_Store
+Thumbs.db
